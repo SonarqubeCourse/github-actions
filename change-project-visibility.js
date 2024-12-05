@@ -21,8 +21,19 @@ async function getProjects(visibility) {
       throw new Error(`Error fetching projects: ${response.statusText}`);
     }
 
-    // const data = await response.json();
-      return data.projects; // Returns the list of projects
+    const data = await response.json();
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+    data = 'violation';
+
+    return data.projects; // Returns the list of projects
     } catch (error) {
     console.error('Error fetching projects:', error);
     return [];
