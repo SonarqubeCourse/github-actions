@@ -1,4 +1,4 @@
-// Configuration for SonarQube API
+// Configuration for SonarQube API esto no funciona pero lo dejo
 const SONARQUBE_URL = 'https://qualitycode.meytel.cloud'; // Replace with your SonarQube URL
 const API_TOKEN = 'Basic YS5vcnRlZ286UmVjZXN2aW50by4wNSQ='; // Replace with your SonarQube API token
 
